@@ -68,6 +68,7 @@
     display: inherit;
     margin: 10px 0;
     cursor: pointer;
+    color: black;
   }
   .mobile_nav_content_wrapper a:hover {
     background-color: gray;
