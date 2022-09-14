@@ -7,7 +7,7 @@
 }
 body {
   width: 100%;
-  background-image: url(../img/eminem.jpg);
+  background-image: url(..../img/eminem.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -59,7 +59,7 @@ ul a:hover {
 .mainLogo {
   width: 70px;
   height: 70px;
-  background-image: url(../img/logo.jpg);
+  background-image: url(..../img/logo.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   text-indent: -9999px;
@@ -81,10 +81,10 @@ ul a:hover {
   background-size: 100%;
 }
 .fb {
-  background-image: url(../img/fb2.png);
+  background-image: url(..../img/fb2.png);
 }
 .insta {
-  background-image: url(../img/instagram2.png);
+  background-image: url(..../img/instagram2.png);
 }
 .related:hover {
   opacity: 0.9;
