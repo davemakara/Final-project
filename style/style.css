@@ -59,7 +59,7 @@ ul a:hover {
 .mainLogo {
   width: 70px;
   height: 70px;
-  background-image: url(/img/logo.jpg);
+  background-image: url("https://davidmakarovv.github.io/img/logo.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   text-indent: -9999px;
