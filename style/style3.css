@@ -44,7 +44,7 @@ ul a:hover {
 header h1 {
   width: 70px;
   height: 70px;
-  background-image: url(img/logo.jpg);
+  background-image: url(../img/logo.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   text-indent: -9999px;
@@ -66,10 +66,10 @@ h1 a {
   background-size: 100%;
 }
 .fb {
-  background-image: url(img/fb2.png);
+  background-image: url(../img/fb2.png);
 }
 .insta {
-  background-image: url(img/instagram2.png);
+  background-image: url(../img/instagram2.png);
 }
 .related:hover {
   opacity: 0.9;
