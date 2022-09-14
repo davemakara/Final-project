@@ -7,7 +7,7 @@
 }
 body {
   width: 100%;
-  background-image: url(img/eminem.jpg);
+  background-image: url(/img/eminem.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -27,22 +27,13 @@ header {
   justify-content: space-between;
   background-color: #000000;
 }
-.flx {
-  width: 700px;
-}
+
 ul a {
   color: #ffffff;
   padding: 15px 20px;
   transition: 1s;
 }
-ul li {
-  background-color: rgb(172, 5, 5);
-  font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400;
-  border: 1px solid rgb(172, 5, 5);
-  border-radius: 5px;
-}
+
 ul li:hover {
   background-color: #ffffff;
   border: none;
@@ -190,4 +181,22 @@ footer {
 .copyright {
   display: flex;
   margin-top: 15px;
+}
+
+.flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flx li {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  border: 1px solid rgb(172, 5, 5);
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.flx li a:hover {
+  color: black;
 }
