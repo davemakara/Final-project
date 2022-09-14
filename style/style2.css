@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  width: 100%;
+  background-image: url(/img/eminem2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header {
+  width: 100%;
+  /* height: 132px; */
+  padding: 20px 100px 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.flx {
+  width: 700px;
+}
+header ul a {
+  color: #ffffff;
+  padding: 15px 20px;
+  transition: 1s;
+}
+header ul li {
+  background-color: rgb(172, 5, 5);
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  border: 1px solid rgb(172, 5, 5);
+  border-radius: 5px;
+}
+header ul li:hover {
+  background-color: #ffffff;
+  border: none;
+}
+header ul a:hover {
+  color: #000000;
+}
+h1 {
+  width: 70px;
+  height: 70px;
+  background-image: url(/img/logo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+h1 a {
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.social {
+  width: 80px;
+  height: 40px;
+  display: flex;
+}
+.related {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.fb {
+  background-image: url(/img/fb2.png);
+}
+.insta {
+  background-image: url(/img/instagram2.png);
+}
+.related:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.soc {
+  width: 40px;
+  height: 40px;
+}
+.containerWrapper {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+}
+.albumBox {
+  width: 60%;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* background-color: #ffffff; */
+  display: flex;
+  border: 5px solid #8a8a8a;
+}
+.albumBox:hover {
+  box-shadow: 10px;
+  cursor: pointer;
+}
+.albumBox img {
+  width: 22%;
+  height: 100%;
+}
+.albumInfo {
+  width: 60%;
+  height: 100%;
+  padding: 30px;
+}
+.albumDetails {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: cursive;
+  margin-bottom: 10px;
+}
+.buyBox {
+  display: flex;
+  align-items: center;
+}
+.buy {
+  color: white;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 50px;
+  background-color: rgb(0, 173, 23);
+  border-radius: 15px;
+}
+.buy:hover {
+  cursor: pointer;
+  background-color: rgb(3, 192, 29);
+}
+footer {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+}
+.footerMain {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 50px;
+}
+.footerLogo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.footerP,
+.fa-regular {
+  color: #ffffff;
+}
+
+.copyright {
+  display: flex;
+  margin-top: 15px;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .albumBox {
+    width: 100%;
+  }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style5.css" />
+    <link rel="stylesheet" href="style/burgerMenuStyle.css" />
+
+    <title>Article</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="mainLogo"><a href="#">eminem logo</a></h1>
+      <nav id="nav"></nav>
+      <div class="mobile_nav_icon">
+        <i class="fas fa-solid fa-bars"></i>
+      </div>
+
+      <div class="social">
+        <div class="fb related">
+          <a href="#" class="soc"></a>
+        </div>
+        <div class="insta related">
+          <a href="#" class="soc"></a>
+        </div>
+      </div>
+    </header>
+    <div id="mobile_nav" class="menuClosed">
+      <div class="mobile_nav_content">
+        <div class="mobile_nav_content_wrapper">
+          <span><p>HOME</p></span>
+          <span><p>ALBUMS</p></span>
+          <span><p>ABOUT</p></span>
+          <span><p>CONTACT</p></span>
+        </div>
+      </div>
+    </div>
+    <main class="another">
+      <div class="statiaMain">
+        <img src="/img/eminem2.jpg" alt="eminem" class="statiaPhoto" />
+        <h2 class="satauri">
+          რეპერმა Eminem-მა Kid Cudi-სთან ერთად ახალი სიმღერა The Adventures of
+          Moon Man and Slim Shady გამოუშვა
+        </h2>
+        <p>
+          რეპერმა Eminem-მა Kid Cudi-სთან ერთად ახალი სიმღერა The Adventures of
+          Moon Man and Slim Shady გამოუშვა, რომელშიც არაერთ პრობლემას შეეხნენ,
+          მათ შორის რეაბილიტაციას, პოლიციის მხრიდან ძალადობას და კორონავირუსის
+          პანდემიას. რეპერი სიმღერაში იმ ადამიანებს აკრიტიკებს, რომლებიც
+          პირბადის გაკეთებაზე უარს ამბობენ: "ოფისში ზოგი ცალტვინაა. ჩვენი
+          ნახევარი ისე დადის, თითქოს ზომბების აპოკალიფსია. მეორე ნახევარი კი
+          გაბრაზებული და დამცინავია და ნიღბის ტარება არ უნდა. ასე გემართება ეს
+          ჯანდაბა მათგან. შოპინგისას იგივე კალათი გამოვიყენე და ახლა კუბოში
+          ვწევარ მათი ხველის გამო". სიმღერაში ასევე ლაპარაკია პოლიციის მხრიდან
+          ძალადობაზე და ნახსენებია ჯორჯ ფლოიდის და აჰმაუდ არბერის მკვლელობებიც:
+          "ვლოცულობთ ჯორჯ ფლოიდის და აჰმაუდ არბერისთვის. როგორ ხდება, რომ ამდენი
+          პოლიციელია ბინძური? გაჩერდი, გთხოვ, ოფიცერო, ბოდიშს ვიხდი, მაგრამ ვერ
+          ვსუნთქავ, როდესაც შენ მყავხარ ზემოდან და შენი დაწყევლილი მუხლით საძილე
+          არტერიაზე მაწვები".
+        </p>
+      </div>
+      <button class="open-button" onclick="openForm()">Chat</button>
+      <i
+        class="fas fa-solid fa-comment-dots mobileMessenger"
+        onclick="openForm()"
+      ></i>
+
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Chat</h1>
+
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">
+            Close
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footerMain">
+        <img src="/img/logo.jpg" alt="eminem, logo" class="footerLogo" />
+        <!-- <p class="footerP">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus
+          officiis repellendus voluptatibus ea, harum hic, sit.
+        </p> -->
+        <div class="copyright">
+          <i class="fa-regular fa-copyright"></i>
+          <p class="footerP">All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
